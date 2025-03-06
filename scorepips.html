@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join ScorePips on Telegram</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #0a0a0a;
+            color: white;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 90%;
+            width: 700px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+            animation-delay: 0.5s;
+        }
+
+        .telegram-btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background: linear-gradient(45deg, #0088cc, #00a8ff);
+            color: white;
+            font-size: 1.2em;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            box-shadow: 0 5px 15px rgba(0, 136, 204, 0.5);
+            opacity: 0;
+            animation: fadeIn 2s ease-in-out forwards;
+            animation-delay: 1s;
+        }
+
+        .telegram-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 20px rgba(0, 136, 204, 0.7);
+        }
+
+        .image-box {
+            margin: 20px auto;
+            text-align: center;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .image-box img {
+            width: 100%;
+            height: auto;
+            max-width: 500px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .image-box img:hover {
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2em;
+            }
+            p {
+                font-size: 1em;
+            }
+            .telegram-btn {
+                font-size: 1em;
+                padding: 12px 25px;
+            }
+            .container {
+                max-width: 95%;
+            }
+        }
+
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 1.8em;
+            }
+            p {
+                font-size: 0.9em;
+            }
+            .telegram-btn {
+                font-size: 0.9em;
+                padding: 10px 20px;
+            }
+            .image-box {
+                max-width: 90%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Join ScorePips on Telegram!</h1>
+        <p>Get Free Trading Signals, AI-Powered Bots, and Expert Insights – All in One Place!</p>
+        
+        <a href="https://t.me/scorepips" class="telegram-btn">Join Now</a>
+    </div>
+        <!-- Your Image -->
+        <div class="image-box">
+            <img src="3.jpg" alt="Your Image">
+            <p><strong>Meet the Founder</strong>: I am dedicated to helping traders succeed with accurate signals and market insights.</p>
+        </div>
+
+
+        <!-- Trading Proofs -->
+        <div class="image-box">
+            <img src="jj.jpg" alt="Trading Proofs">
+            <p><strong>Real Trading Results</strong>: Our trading signals are backed by real, verifiable profits.</p>
+        </div>
+    
+
+        <!-- Telegram Channel Screenshot -->
+        <div class="image-box">
+            <img src="22.jpeg" alt="Telegram Channel">
+            <p><strong>Join Our Community</strong>: Be part of a growing community of successful traders.</p>
+        </div>
+
+        <a href="https://t.me/scorepips" class="telegram-btn">Join Now</a>
+    </div>
+</body>
+</html>
